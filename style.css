@@ -1,0 +1,117 @@
+html{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Overpass', sans-serif;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    margin-top: 60%;
+    gap: 5%;
+    min-height: 300px; /* Need to make this responsive*/
+    padding: 5% 5% 5% 5%;
+    border-radius: 12px;
+}
+
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.star{
+    background-color: hsl(213, 16%, 24%);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: hsl(216, 12%, 54%);
+
+}
+
+img{
+    margin: 35% 35% 35% 33%;
+}
+
+.numbers button{
+    text-align: center;
+    color: hsl(216, 12%, 54%);
+    background-color: hsl(213, 16%, 24%);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.numbers button:hover{
+    background-color:hsl(25, 97%, 53%) ;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    
+}
+
+#submit-btn:hover{
+    color: hsl(25, 97%, 53%);
+}
+
+#submit-btn{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button{
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    margin-top: 7%;
+    border: none;
+    height: 40px;
+}
+
+
+button span{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.info{
+    margin-top: -4%;
+    margin-bottom: 10%;
+    font-size: 1.1rem;
+    color: hsl(217, 12%, 63%);
+}
+
+
+#clicked{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+@media screen and (min-width: 700px){
+
+    .main-container{
+        width: 50%;
+        height: 50%;
+        margin: 20% auto auto auto;
+        padding: 2%;
+        width: 25%;
+        
+
+    }
+    
+}
